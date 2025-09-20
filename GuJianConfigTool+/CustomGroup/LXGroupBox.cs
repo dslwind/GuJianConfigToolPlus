@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -53,6 +53,8 @@ namespace LXCustomTools
         public LXGroupBox()
         {
             InitializeComponent();
+            // 设置默认字体以支持高DPI
+            this.Font = new Font("微软雅黑", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
         }
 
         public LXGroupBox(IContainer container)
@@ -60,6 +62,8 @@ namespace LXCustomTools
             container.Add(this);
 
             InitializeComponent();
+            // 设置默认字体以支持高DPI
+            this.Font = new Font("微软雅黑", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
         }
 
         protected override void OnPaint(PaintEventArgs e)

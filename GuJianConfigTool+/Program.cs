@@ -14,6 +14,7 @@ namespace GuJianConfigTool_
         [STAThread]
         static void Main()
         {
+            // 启用视觉样式和兼容性设置
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new GuJianConfigToolMain());

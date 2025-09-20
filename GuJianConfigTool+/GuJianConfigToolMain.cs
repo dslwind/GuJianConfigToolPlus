@@ -346,5 +346,20 @@ namespace GuJianConfigTool_
             }
             
         }
+
+        private void GuJianConfigToolMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lxGroupBox7_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_path_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
